@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/NavBar';
 import Hero from './Components/Hero';
 import Features from './Components/Features';
+import Products from './Components/Products';
 import About from './Components/About';
 import Footer from './Components/Footer';
 
@@ -20,11 +21,9 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Router>
-            <Route exact path="/products">
-              <h1>Products</h1>
-            </Route>
-          </Router>
+          <Route exact path="/products">
+            <Products />
+          </Route>
         </Switch>
         <Footer />
       </Router>
