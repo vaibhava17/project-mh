@@ -3,34 +3,34 @@ import React from "react";
 const Product = () => {
     return (
         <>
-            <section class="single-product">
-                <div class="section-center single-product-center">
+            <section className="single-product">
+                <div className="section-center single-product-center">
                     <img
                         src="./images/main-bcg.jpeg"
-                        class="single-product-img img"
+                        className="single-product-img img"
                         alt=""
                     />
-                    <article class="single-product-info">
+                    <article className="single-product-info">
                         <div>
-                            <h2 class="single-product-title">couch</h2>
-                            <p class="single-product-company text-slanted">
+                            <h2 className="single-product-title">couch</h2>
+                            <p className="single-product-company text-slanted">
                                 by marcos
                             </p>
-                            <p class="single-product-price">$30.00</p>
-                            <div class="single-product-colors"></div>
-                            <p class="single-product-desc">
+                            <p className="single-product-price">$30.00</p>
+                            <div className="single-product-colors"></div>
+                            <p className="single-product-desc">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
                                 modi? Minima libero doloremque necessitatibus! Praesentium
                                 recusandae quod nesciunt animi voluptatem!
                             </p>
-                            <button class="addToCartBtn btn" data-id="id">
+                            <button className="addToCartBtn btn" data-id="id">
                                 add to cart
                             </button>
                         </div>
                     </article>
                 </div>
             </section>
-            <div class="page-loading">
+            <div className="page-loading">
                 <h2>loading...</h2>
             </div>
         </>

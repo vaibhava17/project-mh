@@ -6,12 +6,12 @@ const Features = () => {
     window.addEventListener('DOMContentLoaded', init);
     return (
         <Router>
-            <section class="section featured">
-                <div class="title">
+            <section className="section featured">
+                <div className="title">
                     <h2><span>/</span> featured</h2>
                 </div>
-                <div class="featured-center section-center">
-                    <h2 class="section-loading">
+                <div className="featured-center section-center">
+                    <h2 className="section-loading">
                         loading...
                     </h2>
                 </div>
