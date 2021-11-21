@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 const Hero = () => {
     return (
         <Router>
-            <section class="hero">
-                <div class="hero-container">
-                    <h1 class="text-slanted">
+            <section className="hero">
+                <div className="hero-container">
+                    <h1 className="text-slanted">
                         rest, relax, unwind
                     </h1>
                     <h3>Embrace your choices - we do</h3>
